@@ -1,0 +1,72 @@
+[debug] [2021-02-03T09:38:44.368Z] ----------------------------------------------------------------------
+[debug] [2021-02-03T09:38:44.370Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pourush\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-03T09:38:44.371Z] CLI Version:   9.2.2
+[debug] [2021-02-03T09:38:44.371Z] Platform:      win32
+[debug] [2021-02-03T09:38:44.371Z] Node Version:  v14.11.0
+[debug] [2021-02-03T09:38:44.372Z] Time:          Wed Feb 03 2021 15:08:44 GMT+0530 (India Standard Time)
+[debug] [2021-02-03T09:38:44.372Z] ----------------------------------------------------------------------
+[debug] [2021-02-03T09:38:44.372Z] 
+[debug] [2021-02-03T09:38:44.382Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-03T09:38:44.382Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\pourush\Desktop\classroom-clone-master
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using task-submissions. 
+[debug] [2021-02-03T09:39:01.241Z] > refreshing access token with scopes: []
+[debug] [2021-02-03T09:39:01.242Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-03T09:39:06.933Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Wed, 03 Feb 2021 09:39:06 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-03T09:39:07.013Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/task-submissions [none]
+[debug] [2021-02-03T09:39:13.087Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/task-submissions 200
+[debug] [2021-02-03T09:39:13.088Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/task-submissions {"projectId":"task-submissions","projectNumber":"993889755009","displayName":"task-submissions","name":"projects/task-submissions","resources":{"hostingSite":"task-submissions","storageBucket":"task-submissions.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote /404.html 
+[debug] [2021-02-03T09:39:28.774Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-02-03T09:39:29.005Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-02-03T09:39:29.006Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.5","browserURL":"https://www.gstatic.com/firebasejs/8.2.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.5/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.5/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.5/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.5/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.5/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.5/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.5/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.5/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.5/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.5/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.5/firebase-firestore.memory.js"}}
+[info] +  Wrote /index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\pourush\Desktop\classroom-clone-master is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=615386107&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-02-03T09:40:50.453Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"c31f34d8e784c97d70bd","redirect_uri":"http://localhost:9005","state":"615386107"}
+[debug] [2021-02-03T09:40:51.173Z] <<< HTTP RESPONSE 200 {"date":"Wed, 03 Feb 2021 09:40:50 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","server":"GitHub.com","status":"200 OK","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding","etag":"W/\"3ad4ad9ffcb0475c7455f5bf1a4931f2\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js","x-github-request-id":"FAB6:4733:93600:A0B15:601A6FA2"}
+[debug] [2021-02-03T09:40:51.177Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-02-03T09:40:51.799Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-02-03T09:40:51.800Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Pourush1999","id":60914830,"node_id":"MDQ6VXNlcjYwOTE0ODMw","avatar_url":"https://avatars.githubusercontent.com/u/60914830?v=4","gravatar_id":"","url":"https://api.github.com/users/Pourush1999","html_url":"https://github.com/Pourush1999","followers_url":"https://api.github.com/users/Pourush1999/followers","following_url":"https://api.github.com/users/Pourush1999/following{/other_user}","gists_url":"https://api.github.com/users/Pourush1999/gists{/gist_id}","starred_url":"https://api.github.com/users/Pourush1999/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Pourush1999/subscriptions","organizations_url":"https://api.github.com/users/Pourush1999/orgs","repos_url":"https://api.github.com/users/Pourush1999/repos","events_url":"https://api.github.com/users/Pourush1999/events{/privacy}","received_events_url":"https://api.github.com/users/Pourush1999/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":2,"public_gists":0,"followers":1,"following":2,"created_at":"2020-02-11T07:08:40Z","updated_at":"2021-02-03T09:39:55Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":119,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Pourush1999 
+[info] 
+[debug] [2021-02-03T09:41:51.570Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2021-02-03T09:41:52.287Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2021-02-03T09:41:52.288Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
